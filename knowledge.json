@@ -199,7 +199,7 @@
         "cours",
         "formation"
       ],
-      "answer": "• YESLY Training Center (2022 – 2024) : algorithmique & Python, Python avancé, développement web, analyse des données.\n• CodeQuest (2025) : Data Analysis avec Power BI.",
+      "answer": "• YESLY Training Center (2022 – 2024) : algorithmique & Python, Python avancé, développement web, analyse des données.\n• CodeQuest (2025) : Data Analysis avec Power BI.\n• Je suis aussi mon propre plan d'apprentissage en data science (dépôt « Data Science Roadmap » : vecteurs, matrices, ACP calculée à la main, tests d'hypothèses, intervalles de confiance).",
       "related": [
         "certifications"
       ]
@@ -530,7 +530,7 @@
         "prediction",
         "model"
       ],
-      "answer": "Machine learning & IA :\n• scikit-learn : modèles, pipelines, validation croisée et évaluation de modèles (Healthy Lifestyle Detector : Random Forest, balanced accuracy 0,61 et ROC AUC 0,70 contre 0,50 pour une base naïve)\n• LLM locaux avec Ollama (mon tableau de bord conversationnel chez Devoteam, où le LLM comprend la question mais ne calcule aucun chiffre)\n• Intégration de LLM via API : Groq (Llama 3.3) avec sorties JSON structurées (MindWallet, 5edma.tn)\n• Algèbre linéaire : ACP calculée à la main",
+      "answer": "Machine learning & IA :\n• scikit-learn : modèles, pipelines, validation croisée et évaluation de modèles (Healthy Lifestyle Detector : Random Forest, balanced accuracy 0,61 et ROC AUC 0,70 contre 0,50 pour une base naïve)\n• LLM locaux avec Ollama (mon tableau de bord conversationnel chez Devoteam, où le LLM comprend la question mais ne calcule aucun chiffre)\n• Intégration de LLM via API : Groq (Llama 3.3) avec sorties JSON structurées (MindWallet, 5edma.tn)\n• Algèbre linéaire : ACP calculée à la main (Data Science Roadmap)",
       "related": [
         "healthy",
         "devoteam",
@@ -661,7 +661,7 @@
       ],
       "medium": [],
       "weak": [],
-      "answer": "Mes projets (tous sur GitHub) :\n• Tableau de bord conversationnel (stage Devoteam) : une question en français → un tableau de bord filtré. Python, FastAPI, React, LLM local.\n• 5edma.tn : marketplace tunisienne de services locaux. FastAPI, MySQL, Next.js, Docker.\n• Healthy Lifestyle Detector : application de machine learning (Random Forest, validation croisée, PySide6).\n• App-Stock : tableau de bord stock, ventes et profit pour une vraie boutique en ligne. PHP, MySQL, JavaScript.\n• MindWallet : coach IA contre les achats émotionnels. Node.js, Groq (Llama 3.3).\n• ShowroomAuto : catalogue de voitures en Angular.\n• Movie App : explorateur de films sur l'API TMDB en Angular.\n• Projet académique : analyse du changement climatique et prédiction de la température mondiale.\n\nDemandez-moi les détails de l'un d'eux, par exemple « Parlez-moi de 5edma.tn ».",
+      "answer": "Mes projets (tous sur GitHub) :\n• Tableau de bord conversationnel (stage Devoteam) : une question en français → un tableau de bord filtré. Python, FastAPI, React, LLM local.\n• 5edma.tn : marketplace tunisienne de services locaux. FastAPI, MySQL, Next.js, Docker.\n• Healthy Lifestyle Detector : application de machine learning (Random Forest, validation croisée, PySide6).\n• App-Stock : tableau de bord stock, ventes et profit pour une vraie boutique en ligne. PHP, MySQL, JavaScript.\n• MindWallet : coach IA contre les achats émotionnels. Node.js, Groq (Llama 3.3).\n• ShowroomAuto : catalogue de voitures en Angular.\n• Movie App : explorateur de films sur l'API TMDB en Angular.\n• Data Science Roadmap : mon plan d'apprentissage et mes notebooks (ACP, tests, intervalles de confiance).\n• Projet académique : analyse du changement climatique et prédiction de la température mondiale.\n\nDemandez-moi les détails de l'un d'eux, par exemple « Parlez-moi de 5edma.tn ».",
       "related": [
         "devoteam",
         "5edma",
