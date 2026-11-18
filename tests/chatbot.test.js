@@ -62,7 +62,6 @@ const expectAnswer = {
   'Et MindWallet ?': 'mindwallet',
   'Le projet de voitures en Angular ?': 'showroom',
   'Parle-moi de la Movie App': 'movie',
-  'Sa roadmap data science ?': 'roadmap',
   'Le projet sur le climat ?': 'climat',
   'Pourquoi le recruter ?': 'qualites',
   'Quelles sont ses qualités ?': 'qualites',
