@@ -201,8 +201,7 @@
       ],
       "answer": "• YESLY Training Center (2022 – 2024) : algorithmique & Python, Python avancé, développement web, analyse des données.\n• CodeQuest (2025) : Data Analysis avec Power BI.\n• Je suis aussi mon propre plan d'apprentissage en data science (dépôt « Data Science Roadmap » : vecteurs, matrices, ACP calculée à la main, tests d'hypothèses, intervalles de confiance).",
       "related": [
-        "certifications",
-        "roadmap"
+        "certifications"
       ]
     },
     {
@@ -814,35 +813,6 @@
       "related": [
         "showroom",
         "competences-dev"
-      ]
-    },
-    {
-      "id": "roadmap",
-      "title": "Data Science Roadmap",
-      "key": [
-        "roadmap"
-      ],
-      "strong": [
-        "feuille de route",
-        "pca",
-        "acp",
-        "notebook",
-        "notebooks",
-        "jupyter",
-        "algebre lineaire",
-        "mathematiques",
-        "maths",
-        "math",
-        "hypothese",
-        "intervalle de confiance",
-        "bootstrap"
-      ],
-      "medium": [],
-      "weak": [],
-      "answer": "Data Science Roadmap est mon plan d'apprentissage sur 5 à 6 mois, avec mes notebooks : vecteurs, matrices, ACP construite à partir des vecteurs propres (sur Iris), lois de probabilité et tests d'hypothèses (test t de Welch, p-values), intervalles de confiance (t et bootstrap).\nStack : Python, NumPy, SciPy, Jupyter.\n\nCode : https://github.com/YusfAI/Data_Science_Road_Map",
-      "related": [
-        "competences-ia",
-        "formation"
       ]
     },
     {
