@@ -3,7 +3,7 @@
     "owner": "Youssef Hamidi",
     "language": "fr",
     "updated": "2026-11-18",
-    "note": "Seule source de l'assistant du portfolio. Chaque réponse ci-dessous a été validée par Youssef (CV, messages, portfolio, README des projets). L'assistant ne génère aucun texte : il choisit une réponse de ce fichier ou dit qu'il ne sait pas. Pour ajouter un fait, ajoutez une entrée ou modifiez une réponse."
+    "note": "Seule source du chat du portfolio. Les réponses sont écrites à la première personne, comme si Youssef répondait lui-même, et chacune a été validée par Youssef (CV, messages, portfolio, README des projets). Le chat ne génère aucun texte : il choisit une réponse de ce fichier ou dit qu'il n'a pas la réponse. Pour ajouter un fait, ajoutez une entrée ou modifiez une réponse."
   },
   "contact": {
     "email": "youssefhmidi17pro@gmail.com",
@@ -16,18 +16,18 @@
     "portfolio": "https://yusfai.github.io"
   },
   "messages": {
-    "welcome": "Bonjour ! Je suis l'assistant du portfolio de Youssef Hamidi. Je réponds uniquement à partir d'une fiche de faits validée par Youssef : formation, stages, projets, compétences, langues, disponibilité et contact. Posez votre question ou choisissez une suggestion.",
-    "unknown": "Je n'ai pas cette information dans la fiche validée par Youssef, et je préfère ne rien inventer. Le plus simple est de lui poser la question directement :",
-    "offtopic": "Je réponds uniquement aux questions sur Youssef Hamidi et son parcours professionnel : formation, stages, projets, compétences, langues, disponibilité et coordonnées. Essayez par exemple « Quand est-il disponible pour un PFE ? ».",
-    "empty": "Écrivez une question sur Youssef, par exemple « Quelles sont ses compétences ? »."
+    "welcome": "Bonjour, je suis Youssef Hamidi ! Posez-moi vos questions sur ma formation, mes stages, mes projets, mes compétences, ma disponibilité pour un PFE ou mes coordonnées. J'ai préparé ces réponses moi-même.",
+    "unknown": "Je n'ai pas encore préparé de réponse à cette question, et je préfère ne rien inventer. Écrivez-moi ou appelez-moi, je vous répondrai directement :",
+    "offtopic": "Ici, je réponds uniquement aux questions sur mon parcours : formation, stages, projets, compétences, langues, disponibilité et coordonnées. Essayez par exemple « Quand êtes-vous disponible pour un PFE ? ».",
+    "empty": "Écrivez-moi une question, par exemple « Quelles sont vos compétences ? »."
   },
   "suggestions": [
-    "Qui est Youssef ?",
-    "Quand est-il disponible pour un PFE ?",
-    "Parle-moi de son stage chez Devoteam",
-    "Quelles sont ses compétences ?",
-    "Quelle est sa formation ?",
-    "Comment le contacter ?"
+    "Présentez-vous",
+    "Quand êtes-vous disponible pour un PFE ?",
+    "Parlez-moi de votre stage chez Devoteam",
+    "Quelles sont vos compétences ?",
+    "Quelle est votre formation ?",
+    "Comment vous contacter ?"
   ],
   "domainTerms": [
     "youssef",
@@ -79,7 +79,9 @@
     "job",
     "resume",
     "salary",
-    "hire"
+    "hire",
+    "votre",
+    "vos"
   ],
   "entries": [
     {
@@ -100,14 +102,19 @@
         "introduce",
         "nom",
         "s appelle",
-        "name"
+        "name",
+        "qui etes",
+        "parlez moi de vous",
+        "parle moi de toi",
+        "presentez vous",
+        "presente toi"
       ],
       "medium": [],
       "weak": [
         "youssef",
         "hamidi"
       ],
-      "answer": "Youssef Hamidi est étudiant en 3e année de Licence en Business Intelligence à l'IHEC Carthage (diplôme prévu en 2027), basé à Soukra, Ariana (Tunisie).\n\nChez Devoteam Tunisie, il a conçu un tableau de bord commercial conversationnel (Python, FastAPI, React, LLM local) livré avec 686 tests automatisés.\n\nIl recherche un stage de fin d'études (PFE) à partir du 2 février 2027, pour 4 mois, alliant développement, machine learning et mathématiques, pour transformer des données en décisions concrètes.",
+      "answer": "Je m'appelle Youssef Hamidi. Je suis étudiant en 3e année de Licence en Business Intelligence à l'IHEC Carthage (diplôme prévu en 2027) et j'habite à Soukra, Ariana (Tunisie).\n\nChez Devoteam Tunisie, j'ai conçu un tableau de bord commercial conversationnel (Python, FastAPI, React, LLM local) livré avec 686 tests automatisés.\n\nJe recherche un stage de fin d'études (PFE) à partir du 2 février 2027, pour 4 mois, alliant développement, machine learning et mathématiques, pour transformer des données en décisions concrètes.",
       "related": [
         "pfe",
         "devoteam",
@@ -148,7 +155,7 @@
         "annee",
         "business intelligence"
       ],
-      "answer": "• Licence en Business Intelligence, Institut des Hautes Études Commerciales de Carthage (IHEC Carthage), 2024 – 2027. Youssef est actuellement en 3e année ; diplôme prévu en 2027.\n  Matières : statistiques et mathématiques, bases de données, algorithmique, programmation, analyse de données, BI et data science.\n• Baccalauréat, section Informatique (2023 – 2024).\n• YESLY Training Center (2022 – 2024) : algorithmique & Python, Python avancé, développement web, analyse des données.\n• CodeQuest (2025) : Data Analysis avec Power BI.",
+      "answer": "• Licence en Business Intelligence à l'Institut des Hautes Études Commerciales de Carthage (IHEC Carthage), 2024 – 2027. Je suis en 3e année ; diplôme prévu en 2027.\n  Matières : statistiques et mathématiques, bases de données, algorithmique, programmation, analyse de données, BI et data science.\n• Baccalauréat, section Informatique (2023 – 2024).\n• YESLY Training Center (2022 – 2024) : algorithmique & Python, Python avancé, développement web, analyse des données.\n• CodeQuest (2025) : Data Analysis avec Power BI.",
       "related": [
         "pfe",
         "certifications",
@@ -167,7 +174,7 @@
       ],
       "medium": [],
       "weak": [],
-      "answer": "Youssef a obtenu un baccalauréat section Informatique (année scolaire 2023 – 2024), avant d'entrer en Licence en Business Intelligence à l'IHEC Carthage en 2024.",
+      "answer": "J'ai obtenu un baccalauréat section Informatique (année scolaire 2023 – 2024), avant d'entrer en Licence en Business Intelligence à l'IHEC Carthage en 2024.",
       "related": [
         "formation"
       ]
@@ -192,7 +199,7 @@
         "cours",
         "formation"
       ],
-      "answer": "• YESLY Training Center (2022 – 2024) : algorithmique & Python, Python avancé, développement web, analyse des données.\n• CodeQuest (2025) : Data Analysis avec Power BI.\n• Il suit aussi son propre plan d'apprentissage en data science (dépôt « Data Science Roadmap » : vecteurs, matrices, ACP calculée à la main, tests d'hypothèses, intervalles de confiance).",
+      "answer": "• YESLY Training Center (2022 – 2024) : algorithmique & Python, Python avancé, développement web, analyse des données.\n• CodeQuest (2025) : Data Analysis avec Power BI.\n• Je suis aussi mon propre plan d'apprentissage en data science (dépôt « Data Science Roadmap » : vecteurs, matrices, ACP calculée à la main, tests d'hypothèses, intervalles de confiance).",
       "related": [
         "certifications",
         "roadmap"
@@ -218,7 +225,7 @@
       ],
       "medium": [],
       "weak": [],
-      "answer": "Youssef a une certification d'anglais niveau C1 obtenue avec Wall Street English.\n\nCôté data, il a suivi la formation CodeQuest (2025) en Data Analysis avec Power BI, et les cours du YESLY Training Center (2022 – 2024). Je n'ai pas d'autre certification dans sa fiche.",
+      "answer": "J'ai une certification d'anglais niveau C1, obtenue avec Wall Street English.\n\nCôté data, j'ai suivi la formation CodeQuest (2025) en Data Analysis avec Power BI, ainsi que les cours du YESLY Training Center (2022 – 2024).",
       "related": [
         "langues",
         "formations-complementaires"
@@ -247,7 +254,7 @@
         "travaille",
         "emploi"
       ],
-      "answer": "Youssef a fait deux stages :\n• Devoteam Tunisie : stagiaire Développeur IA, à partir du 1er août 2026, pendant 1 mois et demi. Il y a conçu un tableau de bord commercial conversationnel (Python, FastAPI, React, LLM local, 686 tests automatisés).\n• UIB (Union Internationale de Banques), agence d'Ariana : stage d'observation du 1er au 31 juillet 2026, sur le fonctionnement des services bancaires et le travail sur le terrain.\n\nIl recherche maintenant un stage PFE à partir du 2 février 2027.",
+      "answer": "J'ai fait deux stages :\n• Devoteam Tunisie : stagiaire Développeur IA, à partir du 1er août 2026, pendant 1 mois et demi. J'y ai conçu un tableau de bord commercial conversationnel (Python, FastAPI, React, LLM local, 686 tests automatisés).\n• UIB (Union Internationale de Banques), agence d'Ariana : stage d'observation du 1er au 31 juillet 2026, pour découvrir le fonctionnement des services bancaires et le travail sur le terrain.\n\nJe recherche maintenant un stage PFE à partir du 2 février 2027.",
       "related": [
         "devoteam",
         "uib",
@@ -277,7 +284,7 @@
         "ollama",
         "duckdb"
       ],
-      "answer": "Stage chez Devoteam Tunisie, en tant que stagiaire Développeur IA, à partir du 1er août 2026, pendant 1 mois et demi.\n\nProjet : un tableau de bord commercial conversationnel pour analyser le pipeline commercial. On pose une question en français (ex. « montre-moi le budget par pays pour Risk Advisory ») et l'application génère un tableau de bord complet de 5 à 7 visuels, tous filtrés sur la question. Des relances comme « en camembert » ou « top 5 » modifient l'affichage.\n\n• Backend Python (FastAPI), interface React ; données lues en direct depuis Google Sheets et interrogées avec DuckDB.\n• Le LLM tourne en local (Ollama) et sert uniquement à comprendre la question : tous les chiffres sont calculés par du code, aucun n'est inventé.\n• 5 sections prêtes à l'emploi avec 32 visuels versionnés (générés avec Bruin DAC), alertes d'échéance par email et contrôle de santé des données.\n• 686 tests automatisés et un installateur Docker en un seul fichier qui vérifie les chiffres à la fin.\n\nCode : https://github.com/YusfAI/DevoTeam_Project",
+      "answer": "J'ai fait mon stage chez Devoteam Tunisie en tant que stagiaire Développeur IA, à partir du 1er août 2026, pendant 1 mois et demi.\n\nJ'y ai conçu un tableau de bord commercial conversationnel pour analyser le pipeline commercial. On pose une question en français (ex. « montre-moi le budget par pays pour Risk Advisory ») et l'application génère un tableau de bord complet de 5 à 7 visuels, tous filtrés sur la question. Des relances comme « en camembert » ou « top 5 » modifient l'affichage.\n\n• Backend Python (FastAPI), interface React ; données lues en direct depuis Google Sheets et interrogées avec DuckDB.\n• Le LLM tourne en local (Ollama) et sert uniquement à comprendre la question : tous les chiffres sont calculés par du code, aucun n'est inventé.\n• 5 sections prêtes à l'emploi avec 32 visuels versionnés (générés avec Bruin DAC), alertes d'échéance par email et contrôle de santé des données.\n• 686 tests automatisés et un installateur Docker en un seul fichier qui vérifie les chiffres à la fin.\n\nCode : https://github.com/YusfAI/DevoTeam_Project",
       "related": [
         "uib",
         "competences-ia",
@@ -303,7 +310,7 @@
         "stage",
         "juillet"
       ],
-      "answer": "Stage d'observation à l'UIB (Union Internationale de Banques), agence d'Ariana, du 1er au 31 juillet 2026 (1 mois).\n• Découverte de l'organisation et du fonctionnement des services bancaires.\n• Observation des processus métier, du workflow, du travail sur le terrain et des outils de reporting utilisés au quotidien.",
+      "answer": "J'ai fait un stage d'observation à l'UIB (Union Internationale de Banques), agence d'Ariana, du 1er au 31 juillet 2026 (1 mois).\n• J'ai découvert l'organisation et le fonctionnement des services bancaires.\n• J'ai observé les processus métier, le workflow, le travail sur le terrain et les outils de reporting utilisés au quotidien.",
       "related": [
         "devoteam",
         "experiences"
@@ -352,7 +359,7 @@
         "mois",
         "fevrier"
       ],
-      "answer": "Youssef recherche un stage de fin d'études (PFE) :\n• Début : 2 février 2027\n• Durée : 4 mois\n• Lieu : gouvernorats de Tunis ou d'Ariana\n• Format : à distance ou en présentiel, les deux lui conviennent\n\nIl cherche un sujet alliant développement, machine learning et mathématiques, pour transformer des données en décisions concrètes (profil visé : Data Science & Développeur IA).",
+      "answer": "Je recherche un stage de fin d'études (PFE) :\n• Début : 2 février 2027\n• Durée : 4 mois\n• Lieu : gouvernorats de Tunis ou d'Ariana\n• Format : à distance ou en présentiel, les deux me conviennent\n\nJe cherche un sujet alliant développement, machine learning et mathématiques, pour transformer des données en décisions concrètes (profil visé : Data Science & Développeur IA).",
       "related": [
         "contact",
         "competences",
@@ -386,7 +393,7 @@
         "tunisia",
         "ariana"
       ],
-      "answer": "Youssef habite à Soukra, dans le gouvernorat de l'Ariana (Tunisie).\n\nPour son PFE, il vise les gouvernorats de Tunis ou d'Ariana, à distance ou en présentiel.",
+      "answer": "J'habite à Soukra, dans le gouvernorat de l'Ariana (Tunisie).\n\nPour mon PFE, je vise les gouvernorats de Tunis ou d'Ariana, à distance ou en présentiel.",
       "related": [
         "pfe",
         "contact"
@@ -394,7 +401,7 @@
     },
     {
       "id": "competences",
-      "title": "Compétences",
+      "title": "Mes compétences",
       "key": [],
       "strong": [
         "competence",
@@ -415,7 +422,7 @@
         "sait faire",
         "connait"
       ],
-      "answer": "• Langages : Python, SQL, TypeScript, JavaScript, PHP\n• Data & BI : pandas, NumPy, DuckDB, MySQL / MariaDB, Power BI (DAX, Power Query), Matplotlib, Seaborn, Bruin DAC, Google Sheets comme source de données en direct, statistiques (tests, intervalles de confiance)\n• Machine learning & IA : scikit-learn, validation croisée et évaluation de modèles, LLM locaux (Ollama), intégration de LLM via API (Groq, sorties JSON structurées), algèbre linéaire (ACP à la main)\n• Développement : FastAPI, React, Next.js, Angular, Node.js, PySide6, Docker, Git, GitHub, tests automatisés (pytest, Vitest)\n• Langues : arabe (maternelle), anglais (C1), français (B2), espagnol (A1)",
+      "answer": "Voici mes compétences :\n• Langages : Python, SQL, TypeScript, JavaScript, PHP\n• Data & BI : pandas, NumPy, DuckDB, MySQL / MariaDB, Power BI (DAX, Power Query), Matplotlib, Seaborn, Bruin DAC, Google Sheets comme source de données en direct, statistiques (tests, intervalles de confiance)\n• Machine learning & IA : scikit-learn, validation croisée et évaluation de modèles, LLM locaux (Ollama), intégration de LLM via API (Groq, sorties JSON structurées), algèbre linéaire (ACP à la main)\n• Développement : FastAPI, React, Next.js, Angular, Node.js, PySide6, Docker, Git, GitHub, tests automatisés (pytest, Vitest)\n• Langues : arabe (maternelle), anglais (C1), français (B2), espagnol (A1)",
       "related": [
         "competences-data",
         "competences-ia",
@@ -446,7 +453,7 @@
       "weak": [
         "sql"
       ],
-      "answer": "Langages de programmation : Python, SQL, TypeScript, JavaScript et PHP.\n• Python : FastAPI, pandas, scikit-learn, PySide6, pytest (dashboard Devoteam, 5edma.tn, Healthy Lifestyle Detector)\n• TypeScript : Angular, React, Next.js (ShowroomAuto, Movie App, 5edma.tn)\n• JavaScript / Node.js : MindWallet, App-Stock\n• PHP : API REST d'App-Stock\n• SQL : MySQL, MariaDB, DuckDB",
+      "answer": "Je programme en Python, SQL, TypeScript, JavaScript et PHP.\n• Python : FastAPI, pandas, scikit-learn, PySide6, pytest (dashboard Devoteam, 5edma.tn, Healthy Lifestyle Detector)\n• TypeScript : Angular, React, Next.js (ShowroomAuto, Movie App, 5edma.tn)\n• JavaScript / Node.js : MindWallet, App-Stock\n• PHP : API REST d'App-Stock\n• SQL : MySQL, MariaDB, DuckDB",
       "related": [
         "competences",
         "projets"
@@ -488,7 +495,7 @@
         "sql",
         "analyse"
       ],
-      "answer": "Data & BI : pandas, NumPy, SQL (MySQL, MariaDB, DuckDB), Power BI (DAX, Power Query), Matplotlib, Seaborn, Bruin DAC, conception de KPI et de tableaux de bord, Google Sheets comme source de données en direct, statistiques (tests d'hypothèses, intervalles de confiance).\n\nEn pratique : le tableau de bord conversationnel chez Devoteam (DuckDB, Bruin DAC, Google Sheets) et App-Stock, le tableau de bord stock / ventes / profit d'une vraie boutique en ligne. Il a aussi suivi la formation CodeQuest en Data Analysis avec Power BI (2025).",
+      "answer": "Data & BI : pandas, NumPy, SQL (MySQL, MariaDB, DuckDB), Power BI (DAX, Power Query), Matplotlib, Seaborn, Bruin DAC, conception de KPI et de tableaux de bord, Google Sheets comme source de données en direct, statistiques (tests d'hypothèses, intervalles de confiance).\n\nEn pratique : mon tableau de bord conversationnel chez Devoteam (DuckDB, Bruin DAC, Google Sheets) et App-Stock, le tableau de bord stock / ventes / profit que j'ai construit pour une vraie boutique en ligne. J'ai aussi suivi la formation CodeQuest en Data Analysis avec Power BI (2025).",
       "related": [
         "devoteam",
         "app-stock",
@@ -524,7 +531,7 @@
         "prediction",
         "model"
       ],
-      "answer": "Machine learning & IA :\n• scikit-learn : modèles, pipelines, validation croisée et évaluation de modèles (Healthy Lifestyle Detector : Random Forest, balanced accuracy 0,61 et ROC AUC 0,70 contre 0,50 pour une base naïve)\n• LLM locaux avec Ollama (dashboard conversationnel chez Devoteam, où le LLM comprend la question mais ne calcule aucun chiffre)\n• Intégration de LLM via API : Groq (Llama 3.3) avec sorties JSON structurées (MindWallet, 5edma.tn)\n• Algèbre linéaire : ACP calculée à la main (Data Science Roadmap)",
+      "answer": "Machine learning & IA :\n• scikit-learn : modèles, pipelines, validation croisée et évaluation de modèles (Healthy Lifestyle Detector : Random Forest, balanced accuracy 0,61 et ROC AUC 0,70 contre 0,50 pour une base naïve)\n• LLM locaux avec Ollama (mon tableau de bord conversationnel chez Devoteam, où le LLM comprend la question mais ne calcule aucun chiffre)\n• Intégration de LLM via API : Groq (Llama 3.3) avec sorties JSON structurées (MindWallet, 5edma.tn)\n• Algèbre linéaire : ACP calculée à la main (Data Science Roadmap)",
       "related": [
         "healthy",
         "devoteam",
@@ -565,7 +572,7 @@
         "application",
         "app"
       ],
-      "answer": "Développement : FastAPI, React, Next.js, Angular, Node.js, PHP, PySide6, Docker, Git et GitHub, avec des tests automatisés avant de livrer (pytest, Vitest).\n\nExemples : 5edma.tn (FastAPI + Next.js + MySQL, environ 60 endpoints, Docker), ShowroomAuto et Movie App (Angular 22), MindWallet (Node.js), App-Stock (API REST PHP + MySQL).",
+      "answer": "Développement : FastAPI, React, Next.js, Angular, Node.js, PHP, PySide6, Docker, Git et GitHub, avec des tests automatisés avant de livrer (pytest, Vitest).\n\nExemples dans mes projets : 5edma.tn (FastAPI + Next.js + MySQL, environ 60 endpoints, Docker), ShowroomAuto et Movie App (Angular 22), MindWallet (Node.js), App-Stock (API REST PHP + MySQL).",
       "related": [
         "5edma",
         "projets",
@@ -596,7 +603,7 @@
       "weak": [
         "niveau"
       ],
-      "answer": "• Arabe : langue maternelle\n• Anglais : C1 (certification Wall Street English, niveau C1)\n• Français : B2\n• Espagnol : A1 (débutant)",
+      "answer": "Les langues que je parle :\n• Arabe : langue maternelle\n• Anglais : C1 (certification Wall Street English)\n• Français : B2\n• Espagnol : A1 (débutant)",
       "related": [
         "certifications",
         "contact"
@@ -621,13 +628,18 @@
         "phone",
         "reach",
         "coordonnees",
-        "ecrire"
+        "vous contacter",
+        "te contacter",
+        "vous joindre",
+        "vous ecrire",
+        "t ecrire",
+        "lui ecrire"
       ],
       "medium": [],
       "weak": [
         "github"
       ],
-      "answer": "Vous pouvez joindre Youssef directement :",
+      "answer": "Vous pouvez me joindre directement :",
       "showContact": true,
       "related": [
         "pfe",
@@ -636,7 +648,7 @@
     },
     {
       "id": "projets",
-      "title": "Projets",
+      "title": "Mes projets",
       "key": [],
       "strong": [
         "projets",
@@ -650,7 +662,7 @@
       ],
       "medium": [],
       "weak": [],
-      "answer": "Projets de Youssef (tous sur GitHub) :\n• Tableau de bord conversationnel (stage Devoteam) : une question en français → un tableau de bord filtré. Python, FastAPI, React, LLM local.\n• 5edma.tn : marketplace tunisienne de services locaux. FastAPI, MySQL, Next.js, Docker.\n• Healthy Lifestyle Detector : application de machine learning (Random Forest, validation croisée, PySide6).\n• App-Stock : tableau de bord stock, ventes et profit pour une vraie boutique en ligne. PHP, MySQL, JavaScript.\n• MindWallet : coach IA contre les achats émotionnels. Node.js, Groq (Llama 3.3).\n• ShowroomAuto : catalogue de voitures en Angular.\n• Movie App : explorateur de films sur l'API TMDB en Angular.\n• Data Science Roadmap : plan d'apprentissage et notebooks (ACP, tests, intervalles de confiance).\n• Projet académique : analyse du changement climatique et prédiction de la température mondiale.\n\nDemandez-moi les détails de l'un d'eux, par exemple « Parle-moi de 5edma.tn ».",
+      "answer": "Mes projets (tous sur GitHub) :\n• Tableau de bord conversationnel (stage Devoteam) : une question en français → un tableau de bord filtré. Python, FastAPI, React, LLM local.\n• 5edma.tn : marketplace tunisienne de services locaux. FastAPI, MySQL, Next.js, Docker.\n• Healthy Lifestyle Detector : application de machine learning (Random Forest, validation croisée, PySide6).\n• App-Stock : tableau de bord stock, ventes et profit pour une vraie boutique en ligne. PHP, MySQL, JavaScript.\n• MindWallet : coach IA contre les achats émotionnels. Node.js, Groq (Llama 3.3).\n• ShowroomAuto : catalogue de voitures en Angular.\n• Movie App : explorateur de films sur l'API TMDB en Angular.\n• Data Science Roadmap : mon plan d'apprentissage et mes notebooks (ACP, tests, intervalles de confiance).\n• Projet académique : analyse du changement climatique et prédiction de la température mondiale.\n\nDemandez-moi les détails de l'un d'eux, par exemple « Parlez-moi de 5edma.tn ».",
       "related": [
         "devoteam",
         "5edma",
@@ -677,7 +689,7 @@
       "weak": [
         "plateforme"
       ],
-      "answer": "5edma.tn (« khedma » = travail en arabe tunisien) est une marketplace tunisienne de services locaux. Les clients publient une mission ou réservent un service à prix fixe ; les travailleurs postulent, discutent et reçoivent des avis. Un admin vérifie les pièces d'identité avant qu'on puisse recruter ou travailler.\n• Environ 60 endpoints d'API : missions, réservations, avis, portefeuille, abonnements, chat temps réel en WebSocket\n• 18 tests automatisés, dont des tests de régression pour deux failles de sécurité qu'il a trouvées et corrigées\n• Se lance avec un seul docker compose up : MySQL, API et application web\n• Aide à la rédaction par IA (Groq, Llama 3.3)\nStack : FastAPI, SQLAlchemy, MySQL, Next.js, React, Tailwind, Docker, Groq.\n\nCode : https://github.com/YusfAI/5edmaa.tn",
+      "answer": "5edma.tn (« khedma » = travail en arabe tunisien) est une marketplace tunisienne de services locaux que j'ai développée. Les clients publient une mission ou réservent un service à prix fixe ; les travailleurs postulent, discutent et reçoivent des avis. Un admin vérifie les pièces d'identité avant qu'on puisse recruter ou travailler.\n• Environ 60 endpoints d'API : missions, réservations, avis, portefeuille, abonnements, chat temps réel en WebSocket\n• 18 tests automatisés, dont des tests de régression pour deux failles de sécurité que j'ai trouvées et corrigées\n• Se lance avec un seul docker compose up : MySQL, API et application web\n• Aide à la rédaction par IA (Groq, Llama 3.3)\nStack : FastAPI, SQLAlchemy, MySQL, Next.js, React, Tailwind, Docker, Groq.\n\nCode : https://github.com/YusfAI/5edmaa.tn",
       "related": [
         "competences-dev",
         "projets"
@@ -701,7 +713,7 @@
       ],
       "medium": [],
       "weak": [],
-      "answer": "Healthy Lifestyle Detector est une application de bureau qui estime si les habitudes d'une personne indiquent une alimentation équilibrée, entraînée sur une enquête alimentaire auprès de 125 étudiants, et qui montre quelles habitudes pèsent le plus.\n• Random Forest évalué par validation croisée 5 plis répétée 10 fois : balanced accuracy 0,61 et ROC AUC 0,70, contre 0,50 pour une base naïve\n• La version 1 n'apprenait rien (elle associait des libellés texte à des codes numériques) : il a trouvé le bug, reconstruit les variables sur les vraies échelles et écrit des tests\n• Un résultat modeste, présenté honnêtement : peu de données, étiquette bruitée\nStack : Python, pandas, scikit-learn, PySide6, pytest.\n\nCode : https://github.com/YusfAI/healthy-lifestyle-detector",
+      "answer": "Healthy Lifestyle Detector est une application de bureau que j'ai développée : elle estime si les habitudes d'une personne indiquent une alimentation équilibrée, à partir d'une enquête alimentaire auprès de 125 étudiants, et montre quelles habitudes pèsent le plus.\n• Random Forest évalué par validation croisée 5 plis répétée 10 fois : balanced accuracy 0,61 et ROC AUC 0,70, contre 0,50 pour une base naïve\n• La version 1 n'apprenait rien (elle associait des libellés texte à des codes numériques) : j'ai trouvé le bug, reconstruit les variables sur les vraies échelles et écrit des tests\n• Un résultat modeste, que je présente honnêtement : peu de données, étiquette bruitée\nStack : Python, pandas, scikit-learn, PySide6, pytest.\n\nCode : https://github.com/YusfAI/healthy-lifestyle-detector",
       "related": [
         "competences-ia",
         "projets"
@@ -727,7 +739,7 @@
         "ventes",
         "profit"
       ],
-      "answer": "App-Stock est le tableau de bord de stock, de ventes et de profit que Youssef a construit pour El Buteur, une petite boutique en ligne tunisienne de chaussures de foot et de maillots.\n• KPI en direct : profit net, profit du mois comparé au mois précédent, trésorerie, paiements hebdomadaires du livreur (cycle samedi → vendredi)\n• Des instantanés mensuels construisent l'historique mois par mois\n• Les colonnes de profit sont calculées par la base de données elle-même, donc elles ne peuvent pas diverger des données\nStack : API REST PHP, MySQL, JavaScript.\n\nCode : https://github.com/YusfAI/App-Stock",
+      "answer": "App-Stock est le tableau de bord de stock, de ventes et de profit que j'ai construit pour El Buteur, une petite boutique en ligne tunisienne de chaussures de foot et de maillots.\n• KPI en direct : profit net, profit du mois comparé au mois précédent, trésorerie, paiements hebdomadaires du livreur (cycle samedi → vendredi)\n• Des instantanés mensuels construisent l'historique mois par mois\n• Les colonnes de profit sont calculées par la base de données elle-même, donc elles ne peuvent pas diverger des données\nStack : API REST PHP, MySQL, JavaScript.\n\nCode : https://github.com/YusfAI/App-Stock",
       "related": [
         "competences-data",
         "projets"
@@ -753,7 +765,7 @@
       "weak": [
         "achat"
       ],
-      "answer": "MindWallet est un coach IA contre les achats émotionnels. Il lit votre humeur, puis bloque, met en garde ou autorise un achat, et suit l'argent que vous avez gardé.\n• Le LLM (Groq, Llama 3.3 70B) renvoie un objet JSON strict, analysé de façon fiable\n• La clé d'API reste sur le serveur Node.js et n'est jamais envoyée au navigateur\n• L'historique est stocké dans le navigateur, sans compte ni base de données\nStack : Node.js, Groq (Llama 3.3), JavaScript.\n\nCode : https://github.com/YusfAI/MindWallet",
+      "answer": "MindWallet est un coach IA contre les achats émotionnels que j'ai développé. Il lit votre humeur, puis bloque, met en garde ou autorise un achat, et suit l'argent que vous avez gardé.\n• Le LLM (Groq, Llama 3.3 70B) renvoie un objet JSON strict, analysé de façon fiable\n• La clé d'API reste sur le serveur Node.js et n'est jamais envoyée au navigateur\n• L'historique est stocké dans le navigateur, sans compte ni base de données\nStack : Node.js, Groq (Llama 3.3), JavaScript.\n\nCode : https://github.com/YusfAI/MindWallet",
       "related": [
         "competences-ia",
         "projets"
@@ -776,7 +788,7 @@
       ],
       "medium": [],
       "weak": [],
-      "answer": "ShowroomAuto est un catalogue de voitures (16 modèles premium) avec recherche en direct, filtre par marque, tri par prix ou puissance fiscale et vue détaillée, avec des tests unitaires.\nStack : Angular 22, TypeScript, signals.\n\nCode : https://github.com/YusfAI/showroom-auto",
+      "answer": "ShowroomAuto est un catalogue de voitures (16 modèles premium) que j'ai développé, avec recherche en direct, filtre par marque, tri par prix ou puissance fiscale et vue détaillée, avec des tests unitaires.\nStack : Angular 22, TypeScript, signals.\n\nCode : https://github.com/YusfAI/showroom-auto",
       "related": [
         "movie",
         "competences-dev"
@@ -798,7 +810,7 @@
       ],
       "medium": [],
       "weak": [],
-      "answer": "Movie App permet de parcourir les films à l'affiche, de chercher dans tout le catalogue TMDB, d'ouvrir une page de détail et de garder une liste d'envies qui survit au rechargement de la page. La recherche est temporisée (350 ms) et annule la requête précédente à chaque frappe.\nStack : Angular 22, RxJS, API TMDB.\n\nCode : https://github.com/YusfAI/movie-app",
+      "answer": "Movie App est mon application pour parcourir les films à l'affiche, chercher dans tout le catalogue TMDB, ouvrir une page de détail et garder une liste d'envies qui survit au rechargement de la page. La recherche est temporisée (350 ms) et annule la requête précédente à chaque frappe.\nStack : Angular 22, RxJS, API TMDB.\n\nCode : https://github.com/YusfAI/movie-app",
       "related": [
         "showroom",
         "competences-dev"
@@ -827,7 +839,7 @@
       ],
       "medium": [],
       "weak": [],
-      "answer": "Data Science Roadmap est le plan d'apprentissage de Youssef sur 5 à 6 mois, avec ses notebooks : vecteurs, matrices, ACP construite à partir des vecteurs propres (sur Iris), lois de probabilité et tests d'hypothèses (test t de Welch, p-values), intervalles de confiance (t et bootstrap).\nStack : Python, NumPy, SciPy, Jupyter.\n\nCode : https://github.com/YusfAI/Data_Science_Road_Map",
+      "answer": "Data Science Roadmap est mon plan d'apprentissage sur 5 à 6 mois, avec mes notebooks : vecteurs, matrices, ACP construite à partir des vecteurs propres (sur Iris), lois de probabilité et tests d'hypothèses (test t de Welch, p-values), intervalles de confiance (t et bootstrap).\nStack : Python, NumPy, SciPy, Jupyter.\n\nCode : https://github.com/YusfAI/Data_Science_Road_Map",
       "related": [
         "competences-ia",
         "formation"
@@ -851,7 +863,7 @@
       ],
       "medium": [],
       "weak": [],
-      "answer": "Dans le cadre de ses études, Youssef a réalisé un projet académique d'analyse du changement climatique et de prédiction de la température mondiale.\n\nJe n'ai pas plus de détails sur ce projet dans sa fiche. Pour en savoir plus, contactez-le directement.",
+      "answer": "Dans le cadre de mes études, j'ai réalisé un projet académique d'analyse du changement climatique et de prédiction de la température mondiale.\n\nJe n'ai pas encore préparé plus de détails ici : contactez-moi et je vous en parlerai volontiers.",
       "showContact": true,
       "related": [
         "formation",
@@ -860,7 +872,7 @@
     },
     {
       "id": "qualites",
-      "title": "Qualités",
+      "title": "Mes qualités",
       "key": [],
       "strong": [
         "qualites",
@@ -876,11 +888,16 @@
         "motivation",
         "motive",
         "strengths",
-        "why hire"
+        "why hire",
+        "recruter",
+        "embaucher",
+        "vous choisir",
+        "te choisir",
+        "vous engager"
       ],
       "medium": [],
       "weak": [],
-      "answer": "D'après son CV, Youssef se décrit comme motivé, curieux et autonome. Il cherche à transformer des données en décisions concrètes, à la croisée du développement, du machine learning et des mathématiques.\n\nCe qu'on voit dans ses projets : des résultats présentés honnêtement (ex. 0,61 de balanced accuracy, « un résultat modeste »), des tests automatisés avant de livrer (686 dans le projet Devoteam) et des applications utilisées par de vraies personnes (App-Stock pour une boutique en ligne).",
+      "answer": "Je me décris comme motivé, curieux et autonome. Je cherche à transformer des données en décisions concrètes, à la croisée du développement, du machine learning et des mathématiques.\n\nCe que montrent mes projets : je présente mes résultats honnêtement (ex. 0,61 de balanced accuracy, « un résultat modeste »), j'écris des tests automatisés avant de livrer (686 dans le projet Devoteam) et je construis des applications utilisées par de vraies personnes (App-Stock pour une boutique en ligne).",
       "related": [
         "devoteam",
         "projets",
@@ -889,26 +906,34 @@
     },
     {
       "id": "bot",
-      "title": "À propos de cet assistant",
-      "key": [],
+      "title": "À propos de ce chat",
+      "key": [
+        "es tu une ia",
+        "etes vous une ia",
+        "es tu un robot",
+        "etes vous un robot",
+        "es tu reel",
+        "etes vous reel",
+        "vraiment youssef",
+        "vraiment toi",
+        "vraiment vous",
+        "chatbot",
+        "bot"
+      ],
       "strong": [
         "comment fonctionnes",
         "comment tu marches",
         "comment ca marche",
-        "es tu une ia",
-        "es tu un robot",
         "chatgpt",
         "qui t a",
         "assistant",
-        "chatbot",
-        "bot",
         "robot",
         "hallucin",
         "how do you work"
       ],
       "medium": [],
       "weak": [],
-      "answer": "Je suis un assistant sans IA générative : je cherche votre question dans une fiche de faits rédigée et validée par Youssef (le fichier knowledge.json de ce site), et je vous montre la réponse correspondante telle quelle. Si la réponse n'est pas dans la fiche, je le dis et je vous donne ses coordonnées. Je ne peux donc rien inventer.",
+      "answer": "Je ne suis pas en ligne en direct : ce chat affiche des réponses que j'ai rédigées et validées moi-même à l'avance (le fichier knowledge.json de ce site). Il n'utilise pas d'IA générative, donc il n'invente rien. S'il ne trouve pas la réponse à votre question, il vous donne mes coordonnées pour qu'on en parle directement.",
       "related": [
         "presentation",
         "contact"
@@ -933,7 +958,7 @@
         "ahla"
       ],
       "weak": [],
-      "answer": "Bonjour ! Que souhaitez-vous savoir sur Youssef ? Je peux vous parler de sa formation, de ses stages, de ses projets, de ses compétences, de sa disponibilité pour un PFE ou de ses coordonnées.",
+      "answer": "Bonjour ! Que souhaitez-vous savoir ? Je peux vous parler de ma formation, de mes stages, de mes projets, de mes compétences, de ma disponibilité pour un PFE ou de mes coordonnées.",
       "related": [
         "presentation",
         "pfe",
@@ -954,9 +979,28 @@
         "genial"
       ],
       "weak": [],
-      "answer": "Avec plaisir ! Si vous souhaitez échanger avec Youssef, voici ses coordonnées :",
+      "answer": "Avec plaisir ! Si vous souhaitez en discuter de vive voix, voici mes coordonnées :",
       "showContact": true,
       "related": []
     }
+  ],
+  "offtopicTerms": [
+    "traduire",
+    "traduction",
+    "traduis",
+    "poeme",
+    "blague",
+    "recette",
+    "meteo",
+    "resous",
+    "resoudre",
+    "dissertation",
+    "ignore",
+    "oublie tes",
+    "translate",
+    "joke",
+    "poem",
+    "recipe",
+    "weather"
   ]
 }

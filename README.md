@@ -19,7 +19,7 @@ og.png              image d'aperçu des liens
 
 ## L'assistant
 
-L'assistant **n'utilise pas d'IA générative** et n'a besoin d'aucune clé d'API. Il compare la question aux mots-clés de `knowledge.json` et affiche, mot pour mot, la réponse validée correspondante.
+Le chat s'appelle Youssef et répond **à la première personne**, comme si je répondais moi-même au recruteur. Il **n'utilise pas d'IA générative** et n'a besoin d'aucune clé d'API : il compare la question aux mots-clés de `knowledge.json` et affiche, mot pour mot, la réponse que j'ai rédigée. Écrivez donc les réponses avec « je ». Les demandes clairement hors sujet (`offtopicTerms` : traduire, poème, blague…) sont refusées directement.
 
 - Question sur Youssef présente dans la fiche → la réponse validée
 - Question sur Youssef absente de la fiche → « je n'ai pas cette information » + coordonnées

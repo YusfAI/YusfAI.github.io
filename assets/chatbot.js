@@ -1,7 +1,8 @@
 /* ============================================================
-   Assistant du portfolio · recherche seule, sans IA générative
+   Chat du portfolio · recherche seule, sans IA générative
    ------------------------------------------------------------
-   L'assistant ne rédige jamais de texte. Il compare la question
+   Les réponses sont écrites à la première personne (Youssef répond).
+   Le chat ne rédige jamais de texte. Il compare la question
    aux mots-clés de knowledge.json et affiche, telle quelle, la
    réponse validée correspondante. Sinon :
      - question sur Youssef mais absente de la fiche → « je ne sais pas » + contacts
@@ -65,6 +66,7 @@
       e.__kw.sort(function (a, b) { return b.w - a.w || b.tokens.length - a.tokens.length; });
     });
     kb.__domain = (kb.domainTerms || []).map(function (d) { return tokenize(d); });
+    kb.__offtopic = (kb.offtopicTerms || []).map(function (d) { return tokenize(d); });
     kb.__byId = {};
     kb.entries.forEach(function (e) { kb.__byId[e.id] = e; });
     kb.__prepared = true;
@@ -100,6 +102,11 @@
     var qTokens = tokenize(q);
     if (!qTokens.length) return { type: 'empty', entry: null, alternates: [] };
 
+    // Demandes clairement hors sujet (traduire, poème, blague…) : refus direct.
+    if (kb.__offtopic.some(function (d) { return phraseIn(qTokens, d); })) {
+      return { type: 'offtopic', entry: null, alternates: [] };
+    }
+
     var ranked = kb.entries
       .map(function (e, i) { return { e: e, s: score(e, qTokens), i: i }; })
       .filter(function (r) { return r.s > 0; })
@@ -126,6 +133,7 @@
      ========================================================== */
   if (typeof document === 'undefined') return;
 
+  var LOAD_ERROR = 'Mes réponses n\'ont pas pu être chargées, et je préfère ne rien dire de mémoire. Mes coordonnées sont dans la section Contact de cette page.';
   var kb = null;
   var loadError = false;
   var greeted = false;
@@ -250,7 +258,6 @@
     var msg = addBot(function (m) {
       appendRich(m, entry.answer);
       if (entry.showContact) m.appendChild(contactBlock());
-      m.appendChild(el('span', 'src', 'Source : fiche validée par Youssef'));
     });
     var ids = (alternates || []).concat(entry.related || []);
     var seen = {}; seen[entry.id] = true;
@@ -278,7 +285,7 @@
     withTyping(function () {
       if (loadError || !kb) {
         addBot(function (m) {
-          m.appendChild(el('p', null, 'La fiche de faits n\'a pas pu être chargée, je préfère ne rien répondre de mémoire. Les coordonnées de Youssef sont dans la section Contact de cette page.'));
+          m.appendChild(el('p', null, LOAD_ERROR));
         });
         return;
       }
@@ -308,7 +315,7 @@
     els.panel.hidden = false;
     els.launcher.setAttribute('aria-expanded', 'true');
     if (kb) greet();
-    else if (loadError) addBot(function (m) { m.appendChild(el('p', null, 'La fiche de faits n\'a pas pu être chargée. Les coordonnées de Youssef sont dans la section Contact de cette page.')); });
+    else if (loadError) addBot(function (m) { m.appendChild(el('p', null, LOAD_ERROR)); });
     els.input.focus();
   }
 
